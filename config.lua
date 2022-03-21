@@ -4,19 +4,19 @@ Config = {}
 Config.TruckPrice = 250
 
 -- Want to give out a cryptostick per stop?
-Config.GiveCryptoStick = true
+Config.GiveCryptoStick = false
 
 -- Has to roll this number or higher to receive a cryptostick
-Config.CryptoStickChance = 75
+Config.CryptoStickChance = 0
 
 -- How many stops minimum should the job roll?
-Config.MinStops = 5
+Config.MinStops = 0
 
 -- Upper worth per bag
-Config.BagUpperWorth = 100
+Config.BagUpperWorth = 7
 
 -- Lower worth per bag
-Config.BagLowerWorth = 50
+Config.BagLowerWorth = 5
 
 -- Minimum bags per stop
 Config.MinBagsPerStop = 2
@@ -72,7 +72,7 @@ Config.Locations = {
         },
         [8] = {
             name = "elginavenue2",
-            coords = vector4(543.51, -204.41, 54.16, 199.5),
+            coords = vector4(531.98, -130.3, 60.68, 198.7),
         },
         [9] = {
             name = "powerstreet",
